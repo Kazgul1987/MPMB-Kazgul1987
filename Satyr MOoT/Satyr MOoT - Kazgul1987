@@ -1,4 +1,5 @@
 var iFileName = "Satyr [Kazgul1987, transcribed by MPMB].js";
+RequiredSheetVersion(12.999);
 
 SourceList["MOoT"]:{
         name : "Mythic Odyssey of Theros"
@@ -6,6 +7,7 @@ SourceList["MOoT"]:{
         group : "Primary Sources"
         url : "www.dnd.wizards.com"
         date : "09/23/2020"
+},
 
 RaceList["satyr"] = {
 	regExpSearch : /satyr/i,
@@ -17,9 +19,7 @@ RaceList["satyr"] = {
 		walk : { spd : 35, enc : 25 }
 	},
 	languageProfs : ["Common", "Sylvan"],
-        skillstxt : {
-		primary : "Proficiency in Performance and Persuasion"
-	},
+        skills : ["Performance", "Persuasion"]
 	toolProfs : {
                 primary : [["Musical Instrument",1]]
         },
@@ -47,7 +47,7 @@ RaceList["satyr"] = {
 }, {	   
 	   name : "Reveler"
 	   description : "This gives you proficiency in Performance and Persuasion skills, plus proficiency in a musical instrument"
-}],
+}], },
 
 WeaponsList["Ram"] = {
 	regExpSearch : /^(?=.*ram).*$/i,
