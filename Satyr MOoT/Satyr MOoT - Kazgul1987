@@ -17,7 +17,8 @@ RaceList["satyr"] = {
 		walk : { spd : 35, enc : 25 }
 	},
 	languageProfs : ["Common", "Sylvan"],
-        skillstxt : 
+        skillstxt : {
+		primary : "Proficiency in Performance and Persuasion"
 	},
 	toolProfs : {
                 primary : [["Musical Instrument",1]]
@@ -43,6 +44,9 @@ RaceList["satyr"] = {
 }, {
            name : "Mirthful Leaps"
            description : "Roll a D8 when making a long or high jump and add that number as feet that you cover. This costs normal movement."
+}, {	   
+	   name : "Reveler"
+	   description : "This gives you proficiency in Performance and Persuasion skills, plus proficiency in a musical instrument"
 }],
 
 WeaponsList["Ram"] = {
