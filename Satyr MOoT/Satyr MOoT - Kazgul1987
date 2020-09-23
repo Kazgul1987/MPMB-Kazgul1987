@@ -40,6 +40,9 @@ RaceList["satyr"] = {
 }, {
            name : "Fey"
            description: : "I am fey rather than human"
+}, {
+           name : "Mirthful Leaps"
+           description : "Roll a D8 when making a long or high jump and add that number as feet that you cover. This costs normal movement."
 }],
 
 WeaponsList["Ram"] = {
