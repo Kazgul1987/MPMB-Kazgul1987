@@ -62,5 +62,7 @@ WeaponsList["ram"] = { //Object name; Note the use of only lower case! Also note
 	description : "You can use your head and horns to make unarmed strikes", // Required; the description of the attack. If you have nothing to put here, just put two quotation marks ("").
 
 	abilitytodamage : true, // Required; whether or not the ability score modifier is added to the damage (true or false)
+	
+	modifiers : ["Str", ""], // Optional; bonuses to: [to hit, to damage]; "" means ignore. These values are added to the corresponding Modifier/Blue-Text fields. // You can also enter the three-letter abbreviation of an ability score (Str, Dex, Con, Int, Wis, or Cha), to have that ability's modifier added to it.
 
 	};
