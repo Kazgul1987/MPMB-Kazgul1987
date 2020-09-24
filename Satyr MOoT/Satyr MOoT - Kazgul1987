@@ -92,6 +92,23 @@ RaceList["triton"] = {
 	
 	trait : "Triton (+1 Strength, +1 Constitution,  +1 Charisma)\nEmissary of the Sea: beasts that can breath can understand you\nGuardians of the Depths: resistance to cold damage",
 
+        features : {
+               
+               "fog cloud" : {
+                        
+                           name : "fog cloud (level 1)",
+                           minlevel : 1,
+                           usage : 1,
+                           recovery : "long rest",
+                           tooltip : " (fog cloud)",
+                           spellcastingBonus : {
+                                         name : "fog cloud (level 1)",
+                                         spells : ["fog cloud"],
+                                         selection : ["fog cloud"],
+                                         firstCol : "oncelr"
+                                         }
+                              },
+
 }
 
 WeaponsList["ram"] = { 
