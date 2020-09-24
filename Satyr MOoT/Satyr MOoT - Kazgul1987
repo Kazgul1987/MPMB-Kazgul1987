@@ -81,6 +81,8 @@ RaceList["triton"] = {
 	
 	vision : [["Darkvision", 60]],
 	
+	dmgres : ["Cold"],
+	
 	age : " Tritons reach maturity around age 15 and can live up to 200 years",
 	
 	height : " average 5 feet tall (4 ft + 6 inch. + 2d10 in inch.)", 
