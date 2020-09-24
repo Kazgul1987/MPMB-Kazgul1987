@@ -63,7 +63,7 @@ RaceList["triton"] = {
 	
 	name : "Triton",
 	
-	ource : ["MOoT - K1987", 26], 
+	source : ["MOoT - K1987", 26], 
 	
 	plural : "Tritons",
 	
@@ -95,7 +95,7 @@ RaceList["triton"] = {
 	
 	spellcastingAbility : 6,
 	
-	trait : "Triton (+1 Strength, +1 Constitution,  +1 Charisma)\nEmissary of the Sea: beasts that can breath can understand you\nGuardians of the Depths: resistance to cold damage",
+	trait : "Triton (+1 Strength, +1 Constitution,  +1 Charisma)\nEmissary of the Sea: beasts that can breath can understand you\nGuardians of the Depths: resistance to cold damage\nAmphibious: I can breathe air and water",
 
 	//spellcastingAbility: 6,
 
@@ -156,6 +156,94 @@ RaceList["triton"] = {
 			},
 		},
 }
+
+BackgroundList["Athlete"] = {
+
+	regExpSearch : /\bathlete\b/i,
+	
+	name : "Athlete",
+	
+	source : ["MOoT - K1987", 31], 
+	
+	skills : ["Acrobatics", "Athletics"], 
+	
+	languageProfs : [1],
+	
+	toolProfs : ["vehicles(land)"],
+
+	gold : 10,
+	
+	equipleft : [ 
+		["Bronze discus or leather ball", 1, ""],
+		["Lucky charm or past trophy", 1, ""],
+		["Traveler's clothes", 1, ""].
+	], 
+
+	feature : "Exceptional Quality", //required; the name of the background feature as it will appear on the sheet. The feature is then retrieved from the BackgroundFeatureList, see below
+
+	trait : [
+		"I feel most at peace during physical exertion, be it exercise or battle.",
+		"I don't like to sit idle.",
+		"I have a daily exercise routine that I refuse to break.",
+		"Obstacles exist to overcome.",
+		"When I see others struggling, I offer to help.",
+		"I love to trade banter and gibes.",
+		"Anything worth doing is worth doing best.",
+		"I get irritated if people praise someone else and not me."
+	], 
+
+	ideal : [
+		["Competition",
+			"Competition: I strive to test myself in all things. (Chaotic)"
+		],
+		["Triumph",
+			"Triumph: The best part of winning is seeing my rivals brought low. (Evil)"
+		],
+		["Camaraderie",
+			"Camaraderie: The strongest bonds are forged through strugle. (Good)"
+		],
+		["People",
+			"People: I strive to inspire my spectators. (Neutral)"
+		],
+		["Tradition",
+			"Tradition: Every game has rules, and the playing field must be level. (Lawful)"
+		],
+		["Growth",
+			"Growth: Lessons hide in victory and defeat. (Any)"
+		],
+	], 
+	
+	bond : [
+		"I'm trying to pay off an old debt I owe to a generous benefactor.",
+		"My ill-gotten gains go to support my family.",
+		"Something important was taken from me, and I aim to steal it back.",
+		"I will become the greatest thief that ever lived.",
+		"I'm guilty of a terrible crime. I hope I can redeem myself for it.",
+		"Someone I loved died because of a mistake I made. That will never happen again."
+	], //required; A list of the bonds that can be chosen using the "Add Features" button on the second page. This list can be any length.
+
+	flaw : [
+		"When I see something valuable, I can't think about anything but how to steal it.",
+		"When faced with a choice between money and my friends, I usually choose the money.",
+		"If there's a plan, I'll forget it. If I don't forget it, I'll ignore it.",
+		"I have a \"tell\" that reveals when I'm lying.",
+		"I turn tail and run when things look bad.",
+		"An innocent person is in prison for a crime that I committed. I'm okay with that."
+	],  //required; A list of the bonds that can be chosen using the "Add Features" button on the second page. This list can be any length.
+
+	extra : [
+		"Select a Criminal Specialty",
+		"Blackmailer",
+		"Burglar",
+		"Enforcer",
+		"Fence",
+		"Highway robber",
+		"Hired killer",
+		"Pickpocket",
+		"Smuggler",
+		"Spy"
+	],
+
 
 WeaponsList["ram"] = { 
 
