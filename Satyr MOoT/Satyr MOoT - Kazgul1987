@@ -91,6 +91,8 @@ RaceList["triton"] = {
 	
 	scores : [1, 0, 1, 0, 0, 1],
 	
+	spellcastingAbility : 6,
+	
 	trait : "Triton (+1 Strength, +1 Constitution,  +1 Charisma)\nEmissary of the Sea: beasts that can breath can understand you\nGuardians of the Depths: resistance to cold damage",
 
 	//spellcastingAbility: 6,
@@ -106,8 +108,6 @@ RaceList["triton"] = {
 			usages : 1,
 			
 			recovery : "long rest",
-			
-			spellcastingAbility : 6,
 
 			spellcastingBonus : {
 				name : "fog cloud (level 1)",
@@ -126,8 +126,6 @@ RaceList["triton"] = {
 			usages : 1,
 			
 			recovery : "long rest",
-			
-			spellcastingAbility : 6,
 
 			spellcastingBonus : {
 				name : "gust of wind (level 3)",
@@ -146,8 +144,6 @@ RaceList["triton"] = {
 			usages : 1,
 			
 			recovery : "long rest",
-			
-			spellcastingAbility : 6,
 
 			spellcastingBonus : {
 				name : "wall of water (level 5)",
