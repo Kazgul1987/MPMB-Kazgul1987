@@ -156,6 +156,7 @@ RaceList["triton"] = {
 				oncelr : true,
 				},
 			},
+		},
 }
 
 WeaponsList["ram"] = { 
