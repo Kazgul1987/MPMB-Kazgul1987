@@ -116,8 +116,46 @@ RaceList["triton"] = {
 				oncelr : true,
 				},
                     },
-	},
+		    
+		"gust of wind" : { 
 
+			name : "gust of wind",
+			
+			minlevel : 3,
+			
+			usages : 1,
+			
+			recovery : "long rest",
+			
+			spellcastingAbility : 6,
+
+			spellcastingBonus : {
+				name : "gust of wind (level 3)",
+				spells : ["gust of wind"],
+				selection : ["gust of wind"],
+				oncelr : true,
+				},
+		},
+
+		"wall of water" : { 
+
+			name : "wall of water",
+			
+			minlevel : 5,
+			
+			usages : 1,
+			
+			recovery : "long rest",
+			
+			spellcastingAbility : 6,
+
+			spellcastingBonus : {
+				name : "wall of water (level 5)",
+				spells : ["wall of water"],
+				selection : ["wall of water"],
+				oncelr : true,
+				},
+			},
 }
 
 WeaponsList["ram"] = { 
