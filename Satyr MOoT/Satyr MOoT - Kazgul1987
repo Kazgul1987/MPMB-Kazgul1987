@@ -1,6 +1,18 @@
 var iFileName = "Satyr - RaceList.js";
 RequiredSheetVersion(12.999);
 
+SourceList["MOoT - S"] = {
+	
+	name : "Mythic Odyssey of Theros - Satyr",
+	
+	abbreviation: "MOoT - S",
+	
+	date: "2020/09/24",
+	
+	group : "Primary Sources",
+	
+}
+
 RaceList["satyr"] = { 
 
 	regExpSearch : /^(?=.*satyr).*$/i,
@@ -19,7 +31,7 @@ RaceList["satyr"] = {
 	
 	languageProfs : ["Common", "Sylvan"],
 
-	weapons : ["ram"], 
+	weapons : ["Ram"], 
 
 	skills : ["Performance", "Persuasion"],
 
@@ -37,32 +49,32 @@ RaceList["satyr"] = {
 
 	scores : [0, 1, 0, 0, 0, 2], 
 
-	trait : "Satyr (+1 Dexterity, +2 Charisma)\nFey:\nI am a fey rather than human.\nMagic Resistance:\n You have advantage on saving throws against spells and magical effects\nMirthful Leaps:\n+1d8 feet to long or high jump even when making a standing jump"
+	trait : "Satyr (+1 Dexterity, +2 Charisma)\nFey: My creature type is fey\nMagic Resistance: You have advantage on saving throws against spells and magical effects\nMirthful Leaps:+1d8 feet to long or high jump even when making a standing jump\nReveler: proficient in performance, persuasion and with a music instrument"
 
+}
+
+WeaponsList["ram"] = { 
+
+	//regExpSearch : /^le(?=.*ram).*$/i,
+	
+	regExpSearch : /^(?=.*ram).*$/i,
+	
+	name : "Ram", 
+
+	source : ["HB", 0], 
+	
+	list : "melee", 
+	
+	ability : 1, 
+	
+	type : "Natural", 
+	
+	damage : [1, 4, "bludgeoning"], 
+	
+	range : "Melee",
+
+	description : "unarmed", 
+	
+	abilitytodamage : true,
+	
 };
-
-WeaponsList["ram"] = { //Object name; Note the use of only lower case! Also note the absence of the word "var" and the use of brackets []
-
-	regExpSearch : /^le(?=.*ram).*$/i, // Required; regular expression of what to look for (i.e. now it looks for any entry that has the word "le" followed by the word "attack" in it, disregarding capitalization). If this looks too complicated, just write: /leattack/i
-
-	name : "Ram", // Required; name of the weapon
-
-	source : ["HB", 0], //required; the source and the page number. "HB" stands for homebrew. See the "Complete SourceList" for an overview of sources that are already defined. Or define a new source using the "Homebrew Syntax - SourceList.js". // This can be an array of arrays to indicate the things appears in multiple sources. For example, if something appears on page 7 of the Elemental Evil Player's Companion and on page 115 of the Sword Coast Adventure Guide, use the following: [["E", 7], ["S", 115]]
-	
-	list : "melee", //optional; by having this attribute, the attack will appear in the dropdown fields. It will be grouped according to what you enter. The lists of weapons in the sheet are: "melee", "ranged", "spell", and "improvised" // However, you can define your own groupings. These will always appear below all the weapons that are included in the sheet
-	
-	ability : 1, // Required; the ability score used to calculate the to hit modifier (and the damage if applicable, see below). [Str=1, Dex=2, Con=3, Int=4, Wis=5, Cha=6]
-
-	type : "Natural", // Required; the type of the weapon. Alternatives are "Cantrip", "Martial", "Natural" (= always proficient), "Other", "Spell", or "Improvised Weapons" // Alternatively, you can define a type yourself. If this type matches a word in the 'Other Weapon Proficiencies' field, the character will be considered proficient with the weapon
-
-	damage : [1, 4, "bludgeoning"], // Required; the damage it does. First entry is the amount of dice, second is the type of dice, and third is the damage type. This example is 2d4 worth of piercing damage. //if you want the amount of dice to be an amount determined by the Character Level, then put "C" as the first value. Alternatively, you can use "B" for the value minus 1 (such as with Green-Flame Blade)
-
-	range : "Melee", // Required; the range of the weapon
-
-	description : "You can use your head and horns to make unarmed strikes", // Required; the description of the attack. If you have nothing to put here, just put two quotation marks ("").
-
-	abilitytodamage : true, // Required; whether or not the ability score modifier is added to the damage (true or false)
-	
-	modifiers : ["Str", ""], // Optional; bonuses to: [to hit, to damage]; "" means ignore. These values are added to the corresponding Modifier/Blue-Text fields. // You can also enter the three-letter abbreviation of an ability score (Str, Dex, Con, Int, Wis, or Cha), to have that ability's modifier added to it.
-
-	};
