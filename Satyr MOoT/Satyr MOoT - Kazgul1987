@@ -94,7 +94,7 @@ RaceList["triton"] = {
 
 	spellcastingAbility: 6,
 
-       features : {
+        features : {
 
 		"fog cloud" : { 
 
@@ -109,6 +109,7 @@ RaceList["triton"] = {
 				oncelr : true,
 				},
                     },
+	},
 
 }
 
