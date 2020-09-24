@@ -71,11 +71,12 @@ RaceList["triton"] = {
 	
 	speed : {
 	
-		walk : { spd : 30, enc : 20},
+		walk : { spd : 30, enc : 20 },
 		
-		swim : { spd: 30, enc : 20},
+		swim : { spd: 30, enc : 20 },
 
 		},
+		
 	languageProfs : ["Common", "Primordial"],
 	
 	vision : [["Darkvision", 60]],
@@ -88,11 +89,11 @@ RaceList["triton"] = {
 	
 	improvements : "Triton: +1 Strength, +1 Consitution, +2 Charisma;",
 	
-	scores : [1, 0. 1, 0, 0, 1],
+	scores : [1, 0, 1, 0, 0, 1],
 	
 	trait : "Triton (+1 Strength, +1 Constitution,  +1 Charisma)\nEmissary of the Sea: beasts that can breath can understand you\nGuardians of the Depths: resistance to cold damage",
 
-	spellcastingAbility: 6,
+	//spellcastingAbility: 6,
 
         features : {
 
@@ -101,6 +102,12 @@ RaceList["triton"] = {
 			name : "fog cloud",
 			
 			minlevel : 1,
+			
+			usages : 1,
+			
+			recovery : "long rest",
+			
+			spellcastingAbility : 6,
 
 			spellcastingBonus : {
 				name : "fog cloud (level 1)",
