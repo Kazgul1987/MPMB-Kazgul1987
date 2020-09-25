@@ -179,7 +179,7 @@ BackgroundList["Athlete"] = {
 		["Traveler's clothes", 1, ""].
 	], 
 
-	feature : "Exceptional Quality", //required; the name of the background feature as it will appear on the sheet. The feature is then retrieved from the BackgroundFeatureList, see below
+	feature : "Echoes of Victory", //required; the name of the background feature as it will appear on the sheet. The feature is then retrieved from the BackgroundFeatureList, see below
 
 	trait : [
 		"I feel most at peace during physical exertion, be it exercise or battle.",
@@ -214,36 +214,43 @@ BackgroundList["Athlete"] = {
 	], 
 	
 	bond : [
-		"I'm trying to pay off an old debt I owe to a generous benefactor.",
-		"My ill-gotten gains go to support my family.",
-		"Something important was taken from me, and I aim to steal it back.",
-		"I will become the greatest thief that ever lived.",
-		"I'm guilty of a terrible crime. I hope I can redeem myself for it.",
-		"Someone I loved died because of a mistake I made. That will never happen again."
-	], //required; A list of the bonds that can be chosen using the "Add Features" button on the second page. This list can be any length.
-
-	flaw : [
-		"When I see something valuable, I can't think about anything but how to steal it.",
-		"When faced with a choice between money and my friends, I usually choose the money.",
-		"If there's a plan, I'll forget it. If I don't forget it, I'll ignore it.",
-		"I have a \"tell\" that reveals when I'm lying.",
-		"I turn tail and run when things look bad.",
-		"An innocent person is in prison for a crime that I committed. I'm okay with that."
-	],  //required; A list of the bonds that can be chosen using the "Add Features" button on the second page. This list can be any length.
-
-	extra : [
-		"Select a Criminal Specialty",
-		"Blackmailer",
-		"Burglar",
-		"Enforcer",
-		"Fence",
-		"Highway robber",
-		"Hired killer",
-		"Pickpocket",
-		"Smuggler",
-		"Spy"
+		"My teammates are my family.",
+		"I will overcome a rival and prove myself their better.",
+		"My mistake got someone hurt. I'll never make that mistake again.",
+		"I will be the best for the honor and glory of my home.",
+		"The person who trained me is the most important person in my world.",
+		"I strive to live up to a specific hero's example."
 	],
 
+	flaw : [
+		"I indulge in a habit that threatens my reputation or my health.",
+		"I'll do absolutely everything to win.",
+		"I ignore anyone who doesn't compete and anyone who loses to me.",
+		"I have lingering pain from old injuries.",
+		"Any defeat or failure on my part is becaus emy opponent cheated.",
+		"I must be the captain of any group I join."
+	], 
+
+	extra : [
+		"Select a Favored Event",
+		"Marathon",
+		"Long-distance running",
+		"Wrestling",
+		"Boxing",
+		"Chariot or horse race",
+		"Pankration (mixed unarmed combat)",
+		"Hoplite race (racing in full armor with a unit)",
+		"Pentathlon (running, lon jump, discus, javelin, wrestling)"
+	],
+
+}
+
+BackgroundFeatureList["echoes of victory"] = {  
+
+	description : "When visiting any settlement within 100 miles of where I grew up, there is a 50 percent chance I can find someone there who admires me and is willing to provide information or temporary shelter. Between adventures, I might compete in athletic events sufficient enough to maintain a comfortable lifestyle.",
+	
+	source : ["MOoT - K1987", 31], 
+}
 
 WeaponsList["ram"] = { 
 
