@@ -176,7 +176,7 @@ BackgroundList["Athlete"] = {
 	equipleft : [ 
 		["Bronze discus or leather ball", 1, ""],
 		["Lucky charm or past trophy", 1, ""],
-		["Traveler's clothes", 1, ""].
+		["Traveler's clothes", 1, ""]
 	], 
 
 	feature : "Echoes of Victory", //required; the name of the background feature as it will appear on the sheet. The feature is then retrieved from the BackgroundFeatureList, see below
