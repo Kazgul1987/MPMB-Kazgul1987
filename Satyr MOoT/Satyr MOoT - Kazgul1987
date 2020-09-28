@@ -329,7 +329,7 @@ AddSubClass( // this is the function you will be calling to add the variant
 				name : "Universal Speech",
 				source : ["MOoT - Kazgul1987", 28],
 				minlevel : 6,
-				description : "\n   " + "As an action, I choose one or more creatures within 60 feet of me, up to a number equal to my Charisma modifier (minimum of 1). The chosen creature can magically understand me, regardless of the language I speak for one hour. I can take this once per long rest or expend a spell slott to use it again.",
+				description : "\n   " + "As an action, I choose one or more creatures within 60 feet of me, up to a number equal to my Charisma modifier (minimum of 1). The chosen creature can magically understand me, regardless of the language I speak for one hour. I can take this once per long rest or expend a spell slot to use it again.",
 				usages : 1,
 				recovery : "long rest",
 				action : ["action", ""],
@@ -343,7 +343,7 @@ AddSubClass( // this is the function you will be calling to add the variant
 				minlevel : 14,
 				description : "\n   " + "When a creature within 60 ft of me add one of my Bardic Inspiration dice to its ability check, attack roll, or saving throw and the roll succeeds, I can use my reaction to encourage a different creature (other than myself) that can hear me within 60 ft, giving it a Bardic Inspiration die without expanding any of my Bardic Inspiration uses.",
 				action : ["reaction", ""],
-				usages : "Charisma modifier per"
+				usages : "Charisma modifier per ",
 				recovery : "long rest",
 				//additional : ["", "", "3 HP", "4 HP", "5 HP", "6 HP", "7 HP", "8 HP", "9 HP", "10 HP", "11 HP", "12 HP", "13 HP", "14 HP", "15 HP", "16 HP", "17 HP", "18 HP", "19 HP", "20 HP"],
 				//eval : "RemoveAction(\"bonus action\", \"Second Wind\"); AddAction(\"bonus action\", \"Second Wind (+ Rallying Cry)\", \"Purple Dragon Knight\")", //eval is custom code that is run when the feature is added. It is used here, because the "Second Wind" bonus action is removed, and replaced by the "Second Wind (+ Rallying Cry)" bonus action. If you instead just want to add a bonus action for "Rallying Cry", use the action object (i.e. action : ["bonus action", ""],)
