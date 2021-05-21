@@ -42,7 +42,7 @@ AddSubClass( // this is the function you will be calling to add the variant
 				source : ["TCoE - Kazgul1987", 24],
 				minlevel : 3,
 				description : "\n   " + "When I enter rage, I manifest a natural weapon until the rage ends. I get a Bite, Claws or Tail attack.",
-				action : [["reaction", "Tail Attack"]],
+				action : [["reaction", "Tail 1d8 to AC"]],
 				weaponsAdd : ["Bite"],
 				weaponOption : {
 					regExpSearch : /^(?=.*\bbite\b).*$/i,
@@ -78,7 +78,7 @@ AddSubClass( // this is the function you will be calling to add the variant
 					type : "Natural",
 					damage : [1, 8, "piercing"],
 					range : "10 ft",
-					description : "10 ft reach",
+					description : "when hit by a creature within 10 ft I can see, 1d8 to AC as reaction",
 					abilitytodamage : true,
 					isAlwaysProf : true,
 					},
