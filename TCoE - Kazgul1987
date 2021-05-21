@@ -1,1 +1,12 @@
 var iFileName = "Tasha's Cauldron of Everything - Kazgul 1987.js";
+RequiredSheetVersion(12.999);
+
+SourceList["TCoE - K1987"] = {
+	
+	name : "Tasha's Cauldron of Everything - Kazgul1987",
+	
+	abbreviation: "TCoE - K1987",
+	
+	date: "2021/05/21",
+	
+	group : "Primary Sources",
